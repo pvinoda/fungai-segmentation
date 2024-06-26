@@ -1,0 +1,8 @@
+# Config file to store relevant information that will be shared by all runs
+
+stage_dir="/rs1/researchers/o/oargell/fungai-rs/fungai_stage"
+scratch_dir="/gpfs_common/share02/fungai/job_scratch"
+out_dir="/rs1/researchers/o/oargell/fungai-rs/fungai_out"
+job_dir="/rs1/researchers/o/oargell/fungai-rs/fungai_jobs"
+env_dir="/rs1/researchers/o/oargell/fungai-rs/demo"
+retrain_queue_dir="/rs1/researchers/o/oargell/fungai-rs/fungai_retrain_info"

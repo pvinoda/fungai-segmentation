@@ -1,0 +1,80 @@
+/* Login.css */
+
+.container {
+    width: 100%;
+    max-width: 400px; /* Limit the width of the form for better aesthetics */
+    margin: 0 auto; /* Center the container */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for the container */
+}
+
+.header {
+    text-align: center; /* Centering header text */
+}
+
+.header .text {
+    font-size: 24px; /* Larger font size for the login title */
+    color: #333;
+}
+
+.header .underline {
+    height: 2px;
+    background-color: #007BFF; /* Blue underline for emphasis */
+    width: 50%;
+    margin: 10px auto; /* Centering the underline */
+}
+
+.inputs {
+    margin: 20px 0; /* Vertical spacing */
+}
+
+.Username input,
+.Password input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px; /* Space between input fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.Forgot-Password {
+    text-align: right;
+    color: #007BFF;
+    cursor: pointer; /* Indicates interactivity */
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.submit_container {
+    text-align: center; /* Centering the Login button */
+    margin-top: 20px;
+}
+
+.login {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Bright blue background for login, highlighting it as the primary action */
+    color: white;
+    border-radius: 4px;
+    cursor: pointer; /* Indicates that this is clickable */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    width: 100%; /* Full width button for emphasis */
+}
+
+.login:hover {
+    background-color: #0056b3; /* Darker blue on hover for better interaction */
+}
+
+.signup {
+    display: block;
+    margin-top: 15px; /* Space under the Login button */
+    font-size: 14px; /* Smaller font size for the less important Signup link */
+    color: #007BFF; /* Blue color to match theme */
+    cursor: pointer; /* Indicates that this is clickable */
+    text-decoration: none; /* No underline to keep it subtle */
+}
+
+.signup:hover {
+    text-decoration: underline; /* Underline on hover to indicate interactivity */
+}
